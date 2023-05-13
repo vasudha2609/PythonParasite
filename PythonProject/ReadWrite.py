@@ -14,6 +14,6 @@ line = file.readline()  #print all the contents line by line using readline meth
 
 for line in file.readlines():
     print(line)
-
+print(line)
 file.close()
 
