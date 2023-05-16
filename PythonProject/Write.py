@@ -9,3 +9,13 @@ with open('Test.txt', 'r') as reader:     #object is being stored in reader vari
            writer.write(line)
            print(line)
 
+with open('Test.txt','r') as reader:
+    content= reader.readlines()
+    print(f"List out the contents before reversing, {content}")
+    reversed_list= list(reversed(content))
+    print(f"List out the list after reversing, {reversed_list}")
+    with open('Test.txt', 'w') as writer:
+        reversed_list = list(reversed(reversed_list))
+        for i in reversed_list:
+            writer.write(i)
+            print(i)

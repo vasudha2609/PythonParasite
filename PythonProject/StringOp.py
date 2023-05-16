@@ -3,7 +3,7 @@ str1 = "Vasudha "
 str2 = "MBA"
 str4= "   krish"
 print(str + str1)
-print(str[1])
+print(str[5])
 print(str.index("S"))
 print(str.strip(str1))
 print(str1.strip()+"trimmed")

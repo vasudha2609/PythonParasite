@@ -7,12 +7,12 @@ file = open('Test.txt')
 
 line = file.readline()  #print all the contents line by line using readline method
 
-#while line != "":
+#while line != "":  #using while loop
     #print(line)
    # line = file.readline()
 
 
-for line in file.readlines():
+for line in file.readlines():  #using for loop, readlines reads entire contents of the file in list format
     print(line)
 
 file.close()
